@@ -90,7 +90,7 @@ final class YPLibraryView: UIView {
 extension YPLibraryView {
     
     class func xibView() -> YPLibraryView? {
-        let nib = UINib(nibName: "YPLibraryView", bundle: .module)
+        let nib = UINib(nibName: "YPLibraryView", bundle: .resourceBundle)
         return nib.instantiate(withOwner: self, options: nil).first as? YPLibraryView
     }
     

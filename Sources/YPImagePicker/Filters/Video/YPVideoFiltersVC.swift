@@ -34,7 +34,7 @@ public class YPVideoFiltersVC: UIViewController, IsMediaFilterVC {
     /// Designated initializer
     public class func initWith(video: YPMediaVideo,
                                isFromSelectionVC: Bool) -> YPVideoFiltersVC {
-        let vc = YPVideoFiltersVC(nibName: "YPVideoFiltersVC", bundle: .module)
+        let vc = YPVideoFiltersVC(nibName: "YPVideoFiltersVC", bundle: .resourceBundle)
         vc.inputVideo = video
         vc.isFromSelectionVC = isFromSelectionVC
         
